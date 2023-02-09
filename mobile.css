@@ -1,0 +1,48 @@
+@media screen and (max-width: 37.5rem){
+
+    body {
+        padding-right: 0;
+        background-image: url(images/bg-mobile.svg);
+        background-size: 100%;
+    }
+
+    .content {
+        flex-direction: column;
+        padding: 2rem;
+    }
+
+    .logohuddle {
+        max-width: 10rem;
+    }
+
+    .mockupimg{
+        max-width: 20rem;
+    }
+
+    .content-text {
+        margin: 3rem 0 0 0rem;
+        align-items: center;
+    }
+
+    .content-text br{
+        display: none;
+    }
+
+    .content-text h1 {
+        font-size: 1.55rem;
+        text-align: center;
+    }
+
+    .content-text p {
+        font-size: 1.05rem;
+        text-align: center;
+    }
+
+    article div{
+        gap: 1rem;
+        padding-top: 5rem;
+    }
+
+
+
+}

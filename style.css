@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap');
+
+*{padding:0; margin:0; box-sizing:border-box;}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-right: 4rem;
+    min-height: 100vh;
+    background-color: hsl(257, 40%, 49%);
+    background-image: url(images/bg-desktop.svg);
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+}
+
+
+.content {
+    display: flex;
+    align-items: center;
+}
+
+.images {
+    display: flex;
+    flex-direction: column;
+}
+
+.logohuddle {
+    max-width: 13rem;
+}
+
+.mockupimg {
+    margin-top: 5rem;
+}
+
+.content-text {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    margin: 13rem 0 0 3rem;
+}
+
+.content-text h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: white;
+}
+
+.content-text p {
+    font-size: 1.1rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    margin-top: 1rem;
+    color: rgba(255, 255, 255, 0.781);
+}
+
+.btnregister {
+    background-color: white;
+    color: hsl(257, 40%, 49%);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    border: none;
+    border-radius: 2rem;
+    padding: 0.7rem 3rem 0.7rem 3rem;
+    margin-top: 2rem;
+    max-width: 10rem;
+    box-shadow: 0 0.2rem 0.5rem 0.2rem hsl(0, 0%, 0%, 0.2);
+}
+
+.btnregister:hover{
+    background-color: hsl(300, 69%, 71%);
+    color: white;
+    cursor: pointer;
+}
+
+article div {
+    display: flex;
+    justify-content: flex-end;
+    gap: 2rem; 
+    padding-top: 10rem;   
+}
+
+.ctticon {
+    max-width: 2.5rem;
+    border: 0.1rem solid black;
+    filter: invert(100%);
+    -webkit-filter: invert(100%);
+    padding: 0.5rem;
+    border-radius: 4rem;
+}
+
+.ctticon:hover {
+    filter:invert(100%);
+    background-color: hsl(133, 96%, 27%);    
+    cursor: pointer;
+}
+
+.attribution {
+    font-family: 'Open Sans', sans-serif;;
+    font-size: 11px;
+    font-weight: 600;
+    color: hsla(249, 97%, 13%, 0.986); 
+    padding: 0.4rem;
+    margin: 2rem 0 1rem 0; 
+    text-align: center;
+}
+.attribution a { color: hsla(0, 0%, 100%, 0.986); }
+
+.attribution a:hover {
+    color: hsl(300, 69%, 71%);
+}
